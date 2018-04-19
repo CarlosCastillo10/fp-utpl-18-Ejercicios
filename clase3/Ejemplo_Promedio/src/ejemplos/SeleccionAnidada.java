@@ -17,12 +17,13 @@ public class SeleccionAnidada {
         // documentacion
 
         Scanner entrada = new Scanner(System.in);
-        String nombre;
+        String nombre = "Carlos Castillo";
+        System.out.println(nombre.toUpperCase());
         int calificacion;
         
         System.out.println("Ingrese nombre del estudiante: ");
         nombre = entrada.nextLine();
-        nombre.toUpperCase();
+        
         
         System.out.println("Ingrese calificacion: ");
         calificacion = entrada.nextInt();
